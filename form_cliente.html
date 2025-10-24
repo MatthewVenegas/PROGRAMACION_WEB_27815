@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO CIENTE</title>
+</head>
+<body>
+    <h1> FORMULARIO </h1>
+    <br>
+
+    <form action="form_producto.html" method="post">
+    <table border="1" width="100%">
+        <thead>
+            <th colpan="4">
+                <h2>DATOS CLIENTE</h2>
+            </th>
+
+            <th colspan="4">
+                <figure>
+                    <img src="https://imagenes.elpais.com/resizer/v2/T3M7UX7LO5G4PBQVLRQBBDWHCA.aspx?auth=091ad8b5288ec90d2827021a29d00f5f557f95642173675403713d585fdc64eb&width=414" alt="NO EXISTE IMAGEN">
+                    <figcaption>IMAGEN DEL CLIENTE</figcaption>
+                </figure>
+            </th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 
+                    <label for="nombre">NOMBRE CLIENTE: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ejm. Mateo" autofocus required value="DAVID">
+                </td>
+                <td> 
+                    <label for="apellido">APELLIDO CLIENTE: </label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ejm. Perez" required value="CRIOLLO">
+                </td>
+                <td>
+                    <label for="ciudad">CIUDAD DE RESIDENCIA:</label>
+                    <input type="text" name="ciudad" id="ciudad" placeholder="Ejm. Quito" required value="SANGOLQUI">
+                </td>
+                <td>
+                    <label for="telefono">TELEFONO CLIENTE:</label>
+                    <input type="telefono" name="ciudad" id="ciudad" placeholder="Ejm. 0978878572" required value="0978878472">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <laber for="cedula">CEDULA:</laber>
+                    <input type="text" name="cedula" id="cedula" placeholder="Ejm. 1728582394" required value="1728582394">
+                </td>
+                <td>
+                    <label for="correo">CORREO ELECTRONICO:</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ejm. matiusisi05@gmail.com" required value="matiusisi05@gmail.com">
+                </td>
+                <td>
+                    <label for="direccion">DIRECCION:</label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Ejm. Av. los Shyris 129" required value="La Victoria">    
+                </td>
+                <td>
+                   <label for="tarjeta">NUMERO DE TARJETA: </label>
+                   <input type="text" name="tarjeta" id="tarjeta" placeholder="Ejm. 6789 5697 9196 5182" required value="9876 1789 6787 5433"> 
+                </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <h2>DATOS PRODUCTO</h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="nom_prod">NOMBRE PRODUCTO: </label>
+                    <input type="text" name="nom_prod" id="nom_prod" placeholder="Ejm. Laptop" required value="laptop">
+                </td>
+                <td>
+                    <label for="RAM">MEMORIA RAM:</label>
+                    <label for="32">32 GB</label>
+                    <input type="radio" name="RAM" id="32" value="32GB">
+                    <label for="16">16 GB</label>
+                    <input type="radio" name="RAM" id="16" value="16GB" checked>
+                    <label for="8">8 GB</label>
+                    <input type="radio" name="RAM" id="8" value="8GB">
+                </td>
+                <td>
+                    <label for="DISCO">ALMACENAMIENTO:</label>
+                    <label for="1TB">1 TB</label>
+                    <input type="radio" name="DISCO" id="1TB" value="1TB" checked>
+                    <label for="512GB">512 GB</label>
+                    <input type="radio" name="DISCO" id="512GB" value="512GB">
+                    <label for="256GB">256 GB</label>
+                    <input type="radio" name="DISCO" id="256GB" value="256GB">
+                </td>
+                <td>
+                    <label for="color">COLOR DEL PRODUCTO:</label>
+                    <input type="color" name="color" id="color" value="#000080">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <label for="TARJETA_G">TARJETA GRAFICA:</label>
+                <label for="NVIDIA 4070">NVIDIA 4070</label>
+                <input type="radio" name="TARJETA_G" id="NVIDIA 4070" value="NVIDIA 4070" checked>
+                <label for="NVIDIA 4060">NVIDIA 4060</label>
+                <input type="radio" name="TARJETA_G" id="NVIDIA 4060" value="NVIDIA 4060">
+                <label for="NVIDIA 4050">NVIDIA 4050</label>
+                <input type="radio" name="TARJETA_G" id="NVIDIA 4050" value="NVIDIA 4050">
+                </td>
+
+                <td>
+                    <label for="PROCESADOR">PROCESADOR: </label>
+                    <label for="I7">I7</label>
+                    <input type="radio" name="PROCESADOR" id="I7" value="I7" checked>
+                    <label for="I5">I5</label>
+                    <input type="radio" name="PROCESADOR" id="I5" value="I5">
+                    <label for="I3">I3</label>
+                    <input type="radio" name="PROCESADOR" id="I3" value="I3">
+
+                </td>
+
+                <td>
+                    <label for="SISTEMA">SISTEMA OPERATIVO:</label>
+                    <label for="WINDOWS11">WINDOWS 11</label>
+                    <input type="radio" name="SISTEMA" id="WINDOWS11" value="WINDOWS11" checked>
+                    <label for="LINUX">LINUX</label>
+                    <input type="radio" name="SISTEMA" id="LINUX" value="LINUX">
+                    <label for="MACOS">MACOS</label>
+                    <input type="radio" name="SISTEMA" id="MACOS" value="MACOS">
+                </td>
+
+                <td>
+                    <label for="monitor">MONITOR: </label>
+                    <label for="15.6" >15.6"</label>
+                    <input type="radio" name="15.6" id="15.6"
+                        value="15.6" checked>
+                    <label for="17.3" >17.3"</label>
+                    <input type="radio" name="17.3" id="17.3"
+                        value="17.3">
+                    <label for="14">14 </label>
+                    <input type="radio" name="14" id="14"
+                        value="14"> 
+            
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <label for="case">CASE</label>
+                    <input type="checkbox" name="case" id="case" checked>
+                    <label for="alimentacion">FUENTE DE ALIMENTACION</label>
+                    <input type="checkbox" name="alimentacion" id="alimentacion" checked>
+                    <label for="placa">PLACA BASE</label>
+                    <input type="checkbox" name="placa" id="placa" checked>
+                    <label type="perifericos">PERIFERICOS</label>
+                    <input type="checkbox" name="perifericos" id="perifericos" checked>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                <input type="submit" value="ENVIAR FORMULARIO">
+                </td>
+            </tr>
+
+            
+        </tbody>
+
+
+    </table>
+</form>
+</body>
+</html>
