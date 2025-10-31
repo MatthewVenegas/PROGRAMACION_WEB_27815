@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EXTERNO</title>
+  <link rel="stylesheet" href="../public/css/estilos.css">
+</head>
+<body>
+
+  <h1 class="titulo">ACTIVIDAD EXTERNO</h1>
+
+  <form class="nombre">
+    <label for="nombre" class="label">INGRESE SU NOMBRE</label>
+    <input 
+      type="text"
+      name="nombre"
+      id="nombre"
+      value="Mateo"
+      required
+      autofocus
+      class="txt"
+    >
+
+    <br><br>
+
+    <label for="hobby" class="label">ESCRIBA SU HOBBY</label>
+    <textarea
+      name="hobby"
+      id="hobby"
+      placeholder="Ejm. Me gusta jugar fútbol"
+      required
+      class="area"
+      rows="4"
+    ></textarea>
+
+    <br><br>
+
+    <label for="lista" class="label peso">SELECCIONE SU GÉNERO DE MÚSICA FAVORITO</label>
+    <select name="lista" id="lista" class="sel" required>
+      <option value="pop">POP</option>
+      <option value="salsa">SALSA</option>
+      <option value="country">COUNTRY</option>
+      <option value="rock">ROCK</option>
+    </select>
+
+    <br><br>
+
+    <label for="" class="marcador">MARQUE SI ES ECUATORIANO</label>
+    <label for="ecuatoriano" class="labeL peque">SI</label>
+    <input type="checkbox" name="ecuatoriano" id="ecuatoriano" value="si" checked class="check">
+
+    <br><br>
+
+    <label class="labeL azul">SELECCIONE SU SEXO:</label>
+
+    <label for="hombre" class="label peque">HOMBRE</label>
+    <input type="radio" name="sexo" id="hombre" value="hombre" checked class="radio">
+
+    <label for="mujer" class="label peque">MUJER</label>
+    <input type="radio" name="sexo" id="mujer" value="mujer" class="radio">
+
+  </form>
+
+</body>
+</html>

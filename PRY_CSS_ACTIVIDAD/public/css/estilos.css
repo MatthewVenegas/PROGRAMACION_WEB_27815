@@ -1,0 +1,89 @@
+.titulo {
+  text-align: center;    
+  font-size: 28px;       
+  color: #2b6cb0;        
+  margin: 18px 0;        
+  letter-spacing: 1px;   
+}
+
+
+.nombre {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+
+.label {
+  display: inline-block;     
+  margin-bottom: 6px;        
+  color: #1a202c;            
+  font-family: Arial, sans-serif; 
+  font-size: 14px;          
+}
+
+.peso { font-weight: 500; }    
+
+
+.marcador {
+  background-color: blueviolet; 
+  color: white;                 
+  padding: 4px 6px;            
+  border-radius: 4px;           
+  display: inline-block;       
+}
+
+
+.peque { margin-right: 6px; font-size: 13px; }
+
+.texto {
+  width: 100%;                   
+  padding-left: 10px;            
+  padding-top: 8px;              
+  padding-bottom: 8px;             
+  border: 1px;     
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+
+.area {
+  width: 100%;                 
+  min-height: 110px;          
+  padding: 10px;               
+  font-family: inherit;        
+  border: 1px;    
+  border-radius: 6px;
+}
+
+
+.sel {
+  width: 100%;                
+  padding: 8px 10px;            
+  border: 1px solid #cbd5e0;     
+  border-radius: 6px;           
+  background-color: lightyellow; 
+}
+
+
+.check {
+  width: 18px;                          
+  height: 18px;                         
+  margin-left: 8px;                     
+  margin-right: 6px;                    
+  accent-color: rgb(142, 199, 199);     
+}
+
+
+.radio {
+  width: 18px;                      
+  height: 18px;                    
+  margin-left: 6px;                  
+  margin-right: 12px;                 
+  accent-color: #2b6cb0;              
+  vertical-align: middle;
+}
+
+
+.azul { color: blue; }
+
